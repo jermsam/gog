@@ -5,14 +5,14 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 16) {
-            Text(appState.greeting)
+            Text("Hello, World!")
                 .font(.title)
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
 
             Button("Refresh") {
-                appState.greeting = appState.core.greeting()
+             
             }
             .buttonStyle(.borderedProminent)
         }
