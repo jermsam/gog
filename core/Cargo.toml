@@ -8,3 +8,7 @@ crate-type = ["cdylib", "staticlib", "lib"]
 
 [dependencies]
 uniffi = { version = "0.31.1", features = ["wasm-unstable-single-threaded"] }
+# Android ndk-context support (auto-added by JFFI)
+[target.'cfg(target_os = "android")'.dependencies]
+ndk-context = "0.1"
+jni = "0.21"

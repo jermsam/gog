@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.update
 import uniffi.gog_core.Core
 
 data class AppUiState(
-    val greeting: String = ""
+  val start: String = ""
 )
 
 class AppViewModel : ViewModel() {
@@ -16,19 +16,12 @@ class AppViewModel : ViewModel() {
 
     private val _uiState = MutableStateFlow(
         AppUiState(
-            greeting = core.greeting()
+
         )
     )
 
     val uiState: StateFlow<AppUiState> = _uiState.asStateFlow()
 
-    fun refreshGreeting() {
-        _uiState.update { currentState ->
-            currentState.copy(
-                greeting = core.greeting()
-            )
-        }
-    }
 
     override fun onCleared() {
         super.onCleared()
