@@ -1,0 +1,43 @@
+[package]
+name = "gog"
+version = "0.1.0"
+
+[platforms]
+enabled = ["macos", "android"]
+
+[platforms.ios]
+deployment_target = "16.0"
+bundle_id = "com.example.gog"
+
+[platforms.android]
+min_sdk = 26
+target_sdk = 36
+package = "com.example.gog"
+
+[platforms.macos]
+deployment_target = "13.0"
+
+[platforms.windows]
+min_version = "10.0.19041.0"
+
+[platforms.linux]
+gtk_version = "4.0"
+
+[platforms.web]
+target = "es2020"
+port = 5173
+host = false
+https = false
+open = false
+cors = true
+title = "Gog"
+description = "A cross-platform app built with JFFI"
+lang = "en"
+# theme_color = "#000000"
+# favicon = "/favicon.ico"
+# og_image = "/og-image.png"
+# og_url = "https://example.com"
+# og_type = "website"
+# twitter_card = "summary_large_image"
+# keywords = ""
+# author = ""

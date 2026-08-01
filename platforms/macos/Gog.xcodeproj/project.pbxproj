@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8EE1B05F50B9B37A5005F2EB26D32A3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D713361678AB1714F8B2C5B3BE2 /* App.swift */; };
+		41788BA8F80FDA4AD58AA4D20F1EE359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD16A19D10E391D2F3429C7EF68975 /* ContentView.swift */; };
+		97D329D42303EAEC05DF8F5ECD060320 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409782B3EDDF3E92EA153A6119BF786 /* AppState.swift */; };
+		C303597314CCDE05E7356A49E4056ECE /* gog_core.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0649C4889C4B9560819705DE96D6E09 /* gog_core.swift */; };
+		447A4CD7CE27477F51B535A48CCADD1C /* gog_core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255D21659F463514D69515475C1A360A /* gog_core.xcframework */; };
+		086961F156CD8061D6D6385ADA297FA0 /* gog_core.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 255D21659F463514D69515475C1A360A /* gog_core.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy,); }; };
+
+		2AA54E40A9FCD9D8A842355BA4C3D4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F433DB702A2EDBC76D2F8BFA853EB44 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74F13D713361678AB1714F8B2C5B3BE2 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		15AD16A19D10E391D2F3429C7EF68975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1409782B3EDDF3E92EA153A6119BF786 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		407D25E80F8B007E0FB20251DAFADCE2 /* Gog.app */ = {isa = PBXFileReference; explicitFileType = "wrapper.application"; includeInIndex = 0; path = Gog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2DAFB818D43CEAF5FD9892C3FB92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235C24D31150A57DB2FB1E0791805320 /* Gog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gog-Bridging-Header.h"; sourceTree = "<group>"; };
+		B0649C4889C4B9560819705DE96D6E09 /* gog_core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gog_core.swift; sourceTree = "<group>"; };
+		255D21659F463514D69515475C1A360A /* gog_core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = gog_core.xcframework; sourceTree = "<group>"; };
+		5F433DB702A2EDBC76D2F8BFA853EB44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF45E35D3B322F58031306D2705CDF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447A4CD7CE27477F51B535A48CCADD1C /* gog_core.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		169503B012FC2B698D6C18DC37A6382E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				086961F156CD8061D6D6385ADA297FA0 /* gog_core.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXGroup section */
+		870B2D9C01BF90B233D819FD02EBC79D = {
+			isa = PBXGroup;
+			children = (
+				74F13D713361678AB1714F8B2C5B3BE2 /* App.swift */,
+				15AD16A19D10E391D2F3429C7EF68975 /* ContentView.swift */,
+				1409782B3EDDF3E92EA153A6119BF786 /* AppState.swift */,
+				B0649C4889C4B9560819705DE96D6E09 /* gog_core.swift */,
+				255D21659F463514D69515475C1A360A /* gog_core.xcframework */,
+				5F433DB702A2EDBC76D2F8BFA853EB44 /* Assets.xcassets */,
+				AFC2DAFB818D43CEAF5FD9892C3FB92B /* Info.plist */,
+				235C24D31150A57DB2FB1E0791805320 /* Gog-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		40B537ACB99687BBF30183E93C98182C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				407D25E80F8B007E0FB20251DAFADCE2 /* Gog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512C41C472BE9F8A46844A431DEC7BDA = {
+			isa = PBXGroup;
+			children = (
+				870B2D9C01BF90B233D819FD02EBC79D,
+				40B537ACB99687BBF30183E93C98182C,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35829FE5A625308587E966026F9D50B /* Gog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04988056DE456682864EC1526043488 /* Build configuration list for PBXNativeTarget "Gog" */;
+			buildPhases = (
+				BD2E1631887613799EA048EAD6CC5CBD /* Sources */,
+				EF45E35D3B322F58031306D2705CDF4F /* Frameworks */,
+				919375772565C664CCF9AA72FB6AB889 /* Resources */,
+				169503B012FC2B698D6C18DC37A6382E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gog;
+			productName = Gog;
+			productReference = 407D25E80F8B007E0FB20251DAFADCE2 /* Gog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EF1FC307A410297E118F4AACC4AB9AA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ECF3FD1321CF1D8CE69252755FAFC09F /* Build configuration list for PBXProject "Gog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512C41C472BE9F8A46844A431DEC7BDA;
+			productRefGroup = 40B537ACB99687BBF30183E93C98182C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35829FE5A625308587E966026F9D50B /* Gog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919375772565C664CCF9AA72FB6AB889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA54E40A9FCD9D8A842355BA4C3D4E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2E1631887613799EA048EAD6CC5CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EE1B05F50B9B37A5005F2EB26D32A3 /* App.swift in Sources */,
+				41788BA8F80FDA4AD58AA4D20F1EE359 /* ContentView.swift in Sources */,
+				97D329D42303EAEC05DF8F5ECD060320 /* AppState.swift in Sources */,
+				C303597314CCDE05E7356A49E4056ECE /* gog_core.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77F74E1F71113D0AA4FF8E4758A6F027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Gog.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				ENABLE_HARDENED_RUNTIME = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"SystemConfiguration",
+					"-framework",
+					"Network",
+					"-framework",
+					"Security",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.gog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Gog-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		84E86B60C878B5CA77F6B3671647C1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Gog.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				ENABLE_HARDENED_RUNTIME = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"SystemConfiguration",
+					"-framework",
+					"Network",
+					"-framework",
+					"Security",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.gog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Gog-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C04988056DE456682864EC1526043488 /* Build configuration list for PBXNativeTarget "Gog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F74E1F71113D0AA4FF8E4758A6F027 /* Debug */,
+				84E86B60C878B5CA77F6B3671647C1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF3FD1321CF1D8CE69252755FAFC09F /* Build configuration list for PBXProject "Gog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F74E1F71113D0AA4FF8E4758A6F027 /* Debug */,
+				84E86B60C878B5CA77F6B3671647C1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EF1FC307A410297E118F4AACC4AB9AA /* Project object */;
+}
